@@ -7,7 +7,7 @@ int main()
     int n;
     cout<<"Enter Number = ";
     cin>>n;
-    int product=0;
+    int product=1;
     for (int i = 1; i <= n; i++)
     {
         product=product*i;
@@ -26,12 +26,12 @@ int main()
     cout << "Sum of first "<<m<<" number is: "<<sum<<endl;
 
      //Do-While Loop
-    int k = 6;
+    int k = 10;
     do
     {
-        cout<<k;
+        cout<<"Value of k = "<<k;
         k++;
     }
-    while(k<4);
+    while(k<7);
     return 0;
 }
