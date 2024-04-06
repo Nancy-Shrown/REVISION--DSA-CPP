@@ -15,4 +15,4 @@ int main()
     cin >> b;
     product(&a,&b);
     return 0;
-}
+}  
